@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECharts Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main" class="chart"></div>
+
+    <span id="startLabel">
+    <label for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start" value="2023-01-01" min="2023-01-01" max="2024-12-31" />
+    </span>
+
+    <span id="endLabel">
+        <label for="end">End date:</label>
+        <input type="date" id="end" name="trip-start" value="2023-01-01" min="2023-01-01" max="2024-12-31" />
+        </span>
+
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
+    </div>
+
+
+
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script src="functions.js"></script>
+
+
+</html>
