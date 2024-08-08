@@ -9,9 +9,9 @@ app.use(cors({origin: "http://127.0.0.1:5500"}));
 const { Client } = require('pg');
  
 const client = new Client({
-	user: 'postgres',
-	password: 'qwer',
-	host: 'localhost',
+	user: 'postgres0',
+	password: 'qw12',
+	host: 'myapp-db-1',
 	port: '5432',
 	database: 'postgres',
 });
